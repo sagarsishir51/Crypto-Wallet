@@ -28,4 +28,11 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+
+	// https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core
+	implementation group: 'org.bitcoinj', name: 'bitcoinj-core', version: '0.15.4'
+
+	// https://mvnrepository.com/artifact/com.google.guava/guava
+	implementation group: 'com.google.guava', name: 'guava', version: '28.1-jre'
+
 }
